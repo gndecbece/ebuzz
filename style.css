@@ -21,7 +21,7 @@ main{
     position: relative;
     background-size: max(1400px, 100vw);
     background-repeat: no-repeat;
-    margin-top: 0px;
+    margin-top: 0;
     
     /* background-color: black; */
 }
@@ -111,15 +111,32 @@ pre h1 {
     .set-logo{
         width: 2%;
     }
+    main{
+        height: 98vh;
+        background-image: url(./images/background\ 2.jpg);
+    background-position: center center;
+    position: relative;
+    background-size: max(1400px, 100vw);
+    background-repeat: no-repeat;
+    }
+    .background-img{
+        height: 98vh;
+    }
 }
 @media (max-width: 1000px) {
     .set-logo{
         width: 5%;
     }
+    
 }
 @media (max-width: 900px) {
     main{
         height: 98vh;
+        background-image: url(./images/background\ 2.jpg);
+    background-position: center center;
+    position: relative;
+    background-size: max(1400px, 100vw);
+    background-repeat: no-repeat;
     }
     .background-img{
         height: 98vh;
