@@ -112,26 +112,28 @@ pre h1 {
         width: 2%;
     }
     main{
-        height: 98vh;
         background-image: url(./images/background\ 2.jpg);
     background-position: center center;
     position: relative;
     background-size: max(1400px, 100vw);
     background-repeat: no-repeat;
-    }
-    .background-img{
-        height: 98vh;
     }
 }
 @media (max-width: 1000px) {
     .set-logo{
         width: 5%;
     }
+    main{
+        height: 60vh;
+    }
+    .background-img{
+        height: 60vh;
+    }
     
 }
 @media (max-width: 900px) {
     main{
-        height: 98vh;
+        height: 70vh;
         background-image: url(./images/background\ 2.jpg);
     background-position: center center;
     position: relative;
@@ -139,15 +141,15 @@ pre h1 {
     background-repeat: no-repeat;
     }
     .background-img{
-        height: 98vh;
+        height: 70vh;
     }
 }
 @media (max-width: 750px) {
     main{
-        height: 105vh;
+        height: 80vh;
     }
     .background-img{
-        height: 105vh;
+        height: 80vh;
     }
 }
 @media (max-width: 500px) {
@@ -161,28 +163,14 @@ pre h1 {
     }
 
     main{
-        height: 105vh;
+        height: 90vh;
     }
     .background-img{
-        height: 105vh;
+        height: 90vh;
     }
 }
-@media (max-width: 470px) {
-    main{
-        height: 113vh;
-    }
-    .background-img{
-        height: 113vh;
-    }
-}
-@media (max-width: 455px) {
-    main{
-        height: 121vh;
-    }
-    .background-img{
-        height: 121vh;
-    }
-}
+
+
 @media (max-width: 350px) {
     .set-logo{
         width: 10%;
@@ -194,10 +182,10 @@ pre h1 {
 }
 @media (max-width: 335px) {
     main{
-        height: 129vh;
+        height: 95vh;
     }
     .background-img{
-        height: 129vh;
+        height: 95vh;
     }
 }
 
