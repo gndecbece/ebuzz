@@ -1,199 +1,162 @@
 *{
-  margin: 0;
-  padding: 0;
-}
-body{
-    background-color: black; 
-}
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color: black; 
+  }
+  
+  .navbar{
+      background-color: rgb(55 58 60) !important;
+      
+  }
+  a{
+      color: white !important;
+  }
+  
+  main{
+      background-image: url(./images/background.jpg);
+      height: 90vh;
+      background-position: center center;
+      position: relative;
+      background-size: max(1400px, 100vw);
+      background-repeat: no-repeat;
+      margin-top: 0;
+      
+      /* background-color: black; */
+  }
+  
+  .background-img{
+      opacity: 0.6;
+      width: 100%;
+      height: 90vh;
+      background-color: black;
+  }
+  
+  .image{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .ebuzz{
+      padding-top: 50px;
+      height: 100%;
+      color: black;
+  }
+  
+  .text-center {
+      color: rgb(255, 255, 255);
+      font-family: -webkit-body;
+      font-size: 30px;
+      position: relative;
+      z-index: 10;
+  }
+  pre h1 {
+      color: rgb(255, 255, 255);
+      font-family: -webkit-body;
+      position: relative;
+      z-index: 15;
+      display: flex;
+      justify-content: center;
+  
+  }
+  
+  .logo-flex{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 40px;
+  }
+  
+  .active{
+      display: flex !important;
+      justify-content: center;
+  }
+  
+  .card{
+      margin: 10px 0;
+  }
+  
+  .adjustment{
+      justify-content: center;
+      display: flex;
+  }
+  
+  .white{
+      color: white !important;
+  }
+  
+  .bottom-color{
+      color: blue !important;
+  }
+  
+  .item{
+      border-bottom: 2px solid blue !important; 
+  }
+  
+  .set-logo{
+      margin-right: 20px;
+  }
+  
+  .arrow{
+      width: 2%;
+      filter: invert(1);
+  }
+  
+  @media (max-width: 4400px) {
+      .set-logo{
+          width: 2%;
+      }
+  }
+  @media (max-width: 2480px) {
+      .set-logo{
+          width: 2%;
+      }
+      main{
+          background-image: url(./images/background\ 2.jpg);
+      background-position: center center;
+      position: relative;
+      background-size: max(1400px, 100vw);
+      background-repeat: no-repeat;
+      }
+  }
+  @media (max-width: 1000px) {
+      .set-logo{
+          width: 5%;
+      }
+     
+  }
+ 
+ 
+  @media (max-width: 500px) {
+      .set-logo{
+          width: 7%;
+      }
+  
+  
+      .arrow{
+          width: 4%;
+      }
+  
+     
+  }
+  
+  
+  @media (max-width: 350px) {
+      .set-logo{
+          width: 10%;
+      }
+  
+      .arrow{
+          width: 6%;
+      }
+  }
 
-.navbar{
-    background-color: rgb(55 58 60) !important;
-    
-}
-a{
-    color: white !important;
-}
-
-main{
-    background-image: url(./images/background.jpg);
-    height: 90vh;
-    background-position: center center;
-    position: relative;
-    background-size: max(1400px, 100vw);
-    background-repeat: no-repeat;
-    margin-top: 0;
-    
-    /* background-color: black; */
-}
-
-.background-img{
-    opacity: 0.6;
-    width: 100%;
-    height: 90vh;
-    background-color: black;
-}
-
-.image{
-    display: flex;
-    justify-content: center;
-}
-
-.ebuzz{
-    padding-top: 50px;
-    height: 100%;
-    color: black;
-}
-
-.text-center {
-    color: rgb(255, 255, 255);
-    font-family: -webkit-body;
-    font-size: 30px;
-    position: relative;
-    z-index: 10;
-}
-pre h1 {
-    color: rgb(255, 255, 255);
-    font-family: -webkit-body;
-    position: relative;
-    z-index: 15;
-    display: flex;
-    justify-content: center;
-
-}
-
-.logo-flex{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-}
-
-.active{
-    display: flex !important;
-    justify-content: center;
-}
-
-.card{
-    margin: 10px 0;
-}
-
-.adjustment{
-    justify-content: center;
-    display: flex;
-}
-
-.white{
-    color: white !important;
-}
-
-.bottom-color{
-    color: blue !important;
-}
-
-.item{
-    border-bottom: 2px solid blue !important; 
-}
-
-.set-logo{
-    margin-right: 20px;
-}
-
-.arrow{
-    width: 2%;
-    filter: invert(1);
-}
-
-@media (max-width: 4400px) {
-    .set-logo{
-        width: 2%;
-    }
-}
-@media (max-width: 2480px) {
-    .set-logo{
-        width: 2%;
-    }
-    main{
-        background-image: url(./images/background\ 2.jpg);
-    background-position: center center;
-    position: relative;
-    background-size: max(1400px, 100vw);
-    background-repeat: no-repeat;
-    }
-}
-@media (max-width: 1000px) {
-    .set-logo{
-        width: 5%;
-    }
-    main{
-        height: 60vh;
-    }
-    .background-img{
-        height: 60vh;
-    }
-    
-}
-@media (max-width: 900px) {
-    main{
-        height: 70vh;
-        background-image: url(./images/background\ 2.jpg);
-    background-position: center center;
-    position: relative;
-    background-size: max(1400px, 100vw);
-    background-repeat: no-repeat;
-    }
-    .background-img{
-        height: 70vh;
-    }
-}
-@media (max-width: 750px) {
-    main{
-        height: 80vh;
-    }
-    .background-img{
-        height: 80vh;
-    }
-}
-@media (max-width: 500px) {
-    .set-logo{
-        width: 7%;
-    }
-
-
-    .arrow{
-        width: 4%;
-    }
-
-    main{
-        height: 90vh;
-    }
-    .background-img{
-        height: 90vh;
-    }
-}
-
-
-@media (max-width: 350px) {
-    .set-logo{
-        width: 10%;
-    }
-
-    .arrow{
-        width: 6%;
-    }
-}
-@media (max-width: 335px) {
-    main{
-        height: 95vh;
-    }
-    .background-img{
-        height: 95vh;
-    }
-}
-
-.middle{
-    display: flex;
-    justify-content: center;
-}
-
-.navbar-toggler{
-    background-color: #c7b4b4 !important;
-}
+  
+  .middle{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .navbar-toggler{
+      background-color: #c7b4b4 !important;
+  }
