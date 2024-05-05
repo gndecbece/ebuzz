@@ -111,13 +111,7 @@
       .set-logo{
           width: 2%;
       }
-      main{
-          background-image: url(./images/background\ 2.jpg);
-      background-position: center center;
-      position: relative;
-      background-size: max(1400px, 100vw);
-      background-repeat: no-repeat;
-      }
+      
   }
   @media (max-width: 1000px) {
       .set-logo{
