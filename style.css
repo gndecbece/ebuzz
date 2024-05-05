@@ -21,7 +21,7 @@ main{
     position: relative;
     background-size: max(1400px, 100vw);
     background-repeat: no-repeat;
-    
+    margin-top: 0px;
     
     /* background-color: black; */
 }
